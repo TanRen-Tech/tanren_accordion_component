@@ -1,0 +1,14 @@
+{
+    "name": "tanren-tech/tanren_accordion_component",
+    "description": "Accordion component built as a Drupal SDC.",
+    "keywords": ["sdc", "drupal"],
+    "type": "drupal-component",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "TanRen Tech",
+            "homepage": "https://www.tanren.cr",
+            "role": "Maintainer"
+        }
+    ]
+}

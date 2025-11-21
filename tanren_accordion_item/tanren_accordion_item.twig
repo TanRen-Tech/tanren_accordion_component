@@ -1,0 +1,27 @@
+{#
+/**
+ * @file
+ * Template for the Tanren Accordion Item component.
+ *
+ * Available variables:
+ * - title: The summary/title for the accordion item.
+ * - content: The expandable content.
+ * - attributes: HTML attributes for the details element.
+ *
+ * This component uses HTML5 details/summary elements for native
+ * keyboard accessibility and proper semantics.
+ */
+#}
+<details{{ attributes.addClass('tanren-accordion-item') }}>
+  <summary class="tanren-accordion-item__summary">
+    <div class="tanren-accordion-item__title">
+      {%- block title -%}
+      {%- endblock -%}
+    </div>
+  </summary>
+
+  <div class="tanren-accordion-item__content">
+    {%- block content -%}
+    {%- endblock -%}
+  </div>
+</details>

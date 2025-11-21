@@ -1,0 +1,16 @@
+$schema: https://git.drupalcode.org/project/drupal/-/raw/HEAD/core/assets/schemas/v1/metadata.schema.json
+name: TanRen Accordion Item
+description: An accessible accordion item using HTML5 details/summary elements. Allows HTML content in both title and content areas.
+status: experimental
+group: Content
+props:
+  type: object
+  properties: { }
+
+slots:
+  title:
+    title: Accordion Item Title
+    description: The summary/title for this accordion item (supports HTML)
+  content:
+    title: Accordion Item Content
+    description: The expandable content that appears when the item is opened

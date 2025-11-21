@@ -1,0 +1,19 @@
+$schema: https://git.drupalcode.org/project/drupal/-/raw/HEAD/core/assets/schemas/v1/metadata.schema.json
+name: TanRen Accordion
+description: An accessible accordion container component that holds accordion items with title, intro text, and expandable content sections.
+status: experimental
+group: Content
+props:
+  type: object
+  properties: { }
+
+slots:
+  title:
+    title: Accordion Title
+    description: The main heading/title for the accordion group
+  intro:
+    title: Intro Text
+    description: Optional introductory text that appears before the accordion items
+  items:
+    title: Accordion Items
+    description: The accordion item components that make up the expandable sections

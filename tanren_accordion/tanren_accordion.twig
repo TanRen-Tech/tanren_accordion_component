@@ -1,0 +1,28 @@
+{#
+/**
+ * @file
+ * Template for the Tanren Accordion component.
+ *
+ * Available variables:
+ * - title: The main heading for the accordion.
+ * - intro: Optional introductory text.
+ * - items: The accordion items.
+ * - attributes: HTML attributes for the wrapper element.
+ */
+#}
+<div{{ attributes.addClass('tanren-accordion') }}>
+  <h2 class="tanren-accordion__title">
+    {%- block title -%}
+    {%- endblock -%}
+  </h2>
+
+  <div class="tanren-accordion__intro">
+    {%- block intro -%}
+    {%- endblock -%}
+  </div>
+
+  <div class="tanren-accordion__items">
+    {%- block items -%}
+    {%- endblock -%}
+  </div>
+</div>
